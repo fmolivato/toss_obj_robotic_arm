@@ -28,7 +28,7 @@ __Table of Contents:__
   - [Sim to Real](#sim-to-real)
   
 ## Inspiration
-This work is inspired by _[TossingBot: Learning to Throw Arbitrary Objects with Residual Physics (Princeton University, Google, Columbia University, MIT.)](https://tossingbot.cs.princeton.edu/)_ (above).
+This work is inspired by _[TossingBot: Learning to Throw Arbitrary Objects with Residual Physics (Princeton University, Google, Columbia University, MIT.)](https://tossingbot.cs.princeton.edu/)_ (below).
 
 <p align="center" width="100%">
 <img src="images/insp.gif">
