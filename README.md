@@ -34,7 +34,7 @@ This work is inspired by _[TossingBot: Learning to Throw Arbitrary Objects with 
 <img src="images/insp.gif">
 </p>
 
-In order to make the task a little easier from the exploration point of view, we replaced the fingers with a plate. In this setting robot need to learn to throw an object using just a flat surface.
+In order to make the task a little easier from the exploration point of view, we replaced the fingers with a plate. In this setting the robot need to learn to throw an object using just a flat surface.
 ## Development Tools
 
  1. Mujoco
