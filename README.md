@@ -154,7 +154,7 @@ We trained the agent for 12M steps over each task.
 <img height="300" src="images/results.gif">
 </p>
 
-We realized that in order to solve the task, the agent learned to "slap" the object. It resambles the behavior of the human hand in a volleyball match.
+We realized that in order to solve the task, the agent learned to "slap" the object. It resambles the behavior of the human hand during basketball shot.
 
 
 ## Solution Analysis
