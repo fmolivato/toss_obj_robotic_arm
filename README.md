@@ -1,7 +1,7 @@
 # Object Toss with a Robotic Arm
 
 <p align="center" width="100%">
-<img height="300" src="throwing.gif">
+<img height="300" src="images/throwing.gif">
 </p>
 
 ## Development Tools
@@ -21,19 +21,19 @@
 ### Observation Space
 
 <p align="center" width="100%">
-<img height="300" src="throwing.gif">
+<img height="300" src="images/frame.png">
 </p>
 
 ### Action Space
 <p align="center" width="100%">
-<img height="300" src="throwing.gif">
+<img height="300" src="images/jont.png">
 </p>
 
 ### Reward
 ### Vectorized Environment
 
 <p align="center" width="100%">
-<img height="300" src="throwing.gif">
+<img height="300" src="images/vec-train-step-19200-to-step-19400_out0001.jpg">
 </p>
 
 Allows multiple instances of the same environment to run in parallel which leds to a more efficient utilization of computing resources. 
@@ -43,8 +43,24 @@ This settings enhance exploration, as the agent can explore different parts of t
 ### RL
 ### Deep RL
 ### Policy Gradient Methods
+<p align="center" width="100%">
+<img height="300" src="images/pgm_exp.jpg">
+</p>
+
 ### Proximal Policy Optimization
+
+<p align="center" width="100%">
+<img height="300" src="images/ppo-surrogate.jpg">
+</p>
+<p align="center" width="100%">
+<img height="300" src="images/ppo_plot.png">
+</p>
+
 ### Curriculum Learning
+
+<p align="center" width="100%">
+<img height="300" src="images/cur1.png">
+</p>
 
 ## Solution Analysis
 + Not requires any explicit model of the kinematics, neither direct nor inverse. __This big plus when dealing with very complex dexterous robots__.
