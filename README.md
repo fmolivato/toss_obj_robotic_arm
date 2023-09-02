@@ -18,6 +18,7 @@ __Table of Contents:__
   - [Policy Gradient Methods](#policy_gradient_methods)
   - [Proximal Policy Optimization](#proximal-policy-optimization)
   - [Curriculum Learning](#curriculum-learning)
+- [Results](#results)
 - [Solution Analysis](#solution-analysis)
 - [Dev Challenges](#dev-challenges)
 - [Further Considerations](#further)
@@ -99,8 +100,9 @@ This settings enhance exploration, as the agent can explore different parts of t
 </p>
 
 ## Results
-
-[<video src="./videos/results.mp4" />](https://github.com/fmolivato/toss_obj_robotic_arm/raw/main/videos/results.mp4)
+<p align="center" width="100%">
+<img height="300" src="images/results.gif">
+</p>
 
 
 ## Solution Analysis
