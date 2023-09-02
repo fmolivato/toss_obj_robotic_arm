@@ -4,6 +4,30 @@
 <img height="300" src="images/throwing.gif">
 </p>
 
+__Table of Contents:__
+- [Inspiration](#inspiration)
+- [Development Tools](#development-tools)
+- [Env](#env)
+  - [Observation Space](#observation-space)
+  - [Action Space](#action-space)
+  - [Reward](#reward)
+  - [Vectorized Environment](#vectorized-environment)
+- [Learning Paradigm](#learning-paradigm)
+  - [RL](#rl)
+  - [Deep RL](#deep-rl)
+  - [Policy Gradient Methods](#policy_gradient_methods)
+  - [Proximal Policy Optimization](#proximal-policy-optimization)
+  - [Curriculum Learning](#curriculum-learning)
+- [Solution Analysis](#solution-analysis)
+- [Dev Challenges](#dev-challenges)
+- [Further Considerations](#further)
+  - [Vision Control](#vision-control)
+  - [Automatic Curriculum Learning](#automatic-curriculum-learning)
+  - [Parallel Multitask RL](#parallel-multitask-rl)
+  - [Sim to Real](#sim-to-real)
+  
+## Inspiration
+
 ## Development Tools
 
  1. Mujoco
@@ -39,9 +63,17 @@
 Allows multiple instances of the same environment to run in parallel which leds to a more efficient utilization of computing resources. 
 This settings enhance exploration, as the agent can explore different parts of the state space simultaneously. Every instance has its own separate state.
 
-## Learning Setting
+## Learning Paradigm
 ### RL
+<p align="center" width="100%">
+<img height="300" src="images/rl.png">
+</p>
+
 ### Deep RL
+<p align="center" width="100%">
+<img height="300" src="images/deep_rl.png">
+</p>
+
 ### Policy Gradient Methods
 <p align="center" width="100%">
 <img height="300" src="images/pgm_exp.jpg">
@@ -50,7 +82,7 @@ This settings enhance exploration, as the agent can explore different parts of t
 ### Proximal Policy Optimization
 
 <p align="center" width="100%">
-<img height="300" src="images/ppo-surrogate.jpg">
+<img src="images/ppo-surrogate.jpg">
 </p>
 <p align="center" width="100%">
 <img height="300" src="images/ppo_plot.png">
@@ -81,5 +113,19 @@ This settings enhance exploration, as the agent can explore different parts of t
 ## Further
 ### Vision Control
 ### Automatic Curriculum Learning
+
+<p align="center" width="100%">
+<img src="images/acl.png">
+</p>
+
 ### Parallel Multitask RL
+
+<p align="center" width="100%">
+<img height="300" src="images/parallel.png">
+</p>
+
 ### Sim to Real
+
+<p align="center" width="100%">
+<img height="300" src="images/dextreme.jpg">
+</p>
