@@ -145,7 +145,7 @@ Basically, the new policy gradient method force the agent to learn a "proximal" 
 The curriculum learning is the concept of decomposing a complex task in simpler handcrafted subtasks in order to effectively reach the overall goal.
 
 We investigated this approach in order to teach the agent to both throw the object and also track the target.
-Indeed the fist curriculum task was to learn the throwing motion to a static target. Instead the next two curriculums tasks focused on gradually increase the spawn offset of the target.
+Indeed the fist curriculum task was to learn the throwing motion to a static target. Instead the next two curriculums tasks focused on the tracking skill by gradually increasing the spawn offset of the target.
 
 We trained the agent for 12M steps over each task.
 
