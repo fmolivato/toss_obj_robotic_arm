@@ -28,6 +28,10 @@ __Table of Contents:__
   
 ## Inspiration
 
+<p align="center" width="100%">
+<img src="images/insp.gif">
+</p>
+
 ## Development Tools
 
  1. Mujoco
@@ -93,6 +97,11 @@ This settings enhance exploration, as the agent can explore different parts of t
 <p align="center" width="100%">
 <img height="300" src="images/cur1.png">
 </p>
+
+## Results
+
+[<video src="./videos/results.mp4" />](https://github.com/fmolivato/toss_obj_robotic_arm/raw/main/videos/results.mp4)
+
 
 ## Solution Analysis
 + Not requires any explicit model of the kinematics, neither direct nor inverse. __This big plus when dealing with very complex dexterous robots__.
