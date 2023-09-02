@@ -19,9 +19,22 @@
 ## Env
 
 ### Observation Space
+
+<p align="center" width="100%">
+<img height="300" src="throwing.gif">
+</p>
+
 ### Action Space
+<p align="center" width="100%">
+<img height="300" src="throwing.gif">
+</p>
+
 ### Reward
 ### Vectorized Environment
+
+<p align="center" width="100%">
+<img height="300" src="throwing.gif">
+</p>
 
 Allows multiple instances of the same environment to run in parallel which leds to a more efficient utilization of computing resources. 
 This settings enhance exploration, as the agent can explore different parts of the state space simultaneously. Every instance has its own separate state.
