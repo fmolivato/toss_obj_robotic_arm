@@ -37,10 +37,10 @@ The laboratory was made possible thanks to Professor Simone Calderara, who manag
 During the laboratory, it was possible to delve into the fundamentals of Reinforcement Learning and their implementation. We used various algorithms, both value-based and policy-based. The simpler ones, such as Q-learning and Deep Q-learning, were implemented from scratch, while for the more complex theoretical ones, like A2C and PPO, we chose to use the implementations from "Stable Baseline 3." We also utilized environments like Gymnasium, Petting-zoo, and Pybullet. Furthermore, we developed some custom environments, one of which was used in this project. Below, you can see some of our implementations:
 
 <p align="center" width="100%">
-<img height="300" src="images/frame.png">
+<img height="300" src="images/RL_gif.gif">
 </p>
 
-Material:
+For the sake of completeness, we provide the materials upon which our studies were based, with the hope that they will serve as a useful reference for all readers to better understand and delve into Reinforcement Learning:
 1. [Fundamentals of Reinforcement Learning](https://www.coursera.org/learn/fundamentals-of-reinforcement-learning)
 2. [Deep Mind Introduction to Reinforcement Learning (1)](https://www.youtube.com/playlist?list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ)
 3. [Deep Mind Introduction to Reinforcement Learning (2)](https://www.youtube.com/playlist?list=PLqYmG7hTraZBKeNJ-JE_eyJHZ7XgBoAyb)
