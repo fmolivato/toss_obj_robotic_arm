@@ -226,4 +226,4 @@ The Parallel Multitask RL is a training pattern where multiple pretext tasks are
 <img height="300" src="images/dextreme.jpg">
 </p>
 
-Honorable mention to _[DeXtreme: Transfer of Agile In-Hand Manipulation from Simulation to Reality](https://dextreme.org/)_ a work made by NVIDIA. This works proves that is possible to go from simulation to reality effictively even on a complex task like robotic hand dexterity.
+Honorable mention to _[DeXtreme: Transfer of Agile In-Hand Manipulation from Simulation to Reality](https://dextreme.org/)_ a work made by NVIDIA. This work proves that is possible to go from simulation to reality effictively even on a complex task like robotic hand dexterity.
