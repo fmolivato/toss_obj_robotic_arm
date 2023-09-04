@@ -9,7 +9,7 @@ __Table of Contents:__
 - [Reinforcement Learning Laboratory](#reinforcemente_learning_laboratory)
 - [Inspiration](#inspiration)
 - [Development Tools](#development-tools)
-- [Env](#env)
+- [Custom Env](#custom-env)
   - [Observation Space](#observation-space)
   - [Action Space](#action-space)
   - [Reward](#reward)
@@ -70,7 +70,7 @@ In order to make the task a little easier from the exploration point of view, we
 <a href="https://www.canva.com/design/DAFspXKsex4/6PJ41YdfBPMxjuhkqJpZkw/view?utm_content=DAFspXKsex4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">:bar_chart: Here the slides of # the presentation :bar_chart:</a>
 </p> -->
 
-## Env
+## Custom Env
 
 ### Observation Space
 
