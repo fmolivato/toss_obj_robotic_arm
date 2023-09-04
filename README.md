@@ -5,6 +5,7 @@
 </p>
 
 __Table of Contents:__
+- [Introduction](#introduction)
 - [Inspiration](#inspiration)
 - [Development Tools](#development-tools)
 - [Env](#env)
@@ -26,7 +27,10 @@ __Table of Contents:__
   - [Automatic Curriculum Learning](#automatic-curriculum-learning)
   - [Parallel Multitask RL](#parallel-multitask-rl)
   - [Sim to Real](#sim-to-real)
-  
+
+## Introduction
+This project was made possible thanks to the Reinforcement Learning laboratory that is part of the Master's course in "Artificial Intelligence Engineering" at the University of Modena and Reggio Emilia. 
+The laboratory was made possible thanks to Professor Simone Calderara, who managed and coordinated its development. The credit for our improvement in the field of reinforcement learning should be attributed to him; any errors and inaccuracies in this repository are our own mistakes. 
 ## Inspiration
 This work is inspired by _[TossingBot: Learning to Throw Arbitrary Objects with Residual Physics (Princeton University, Google, Columbia University, MIT.)](https://tossingbot.cs.princeton.edu/)_ (below).
 
