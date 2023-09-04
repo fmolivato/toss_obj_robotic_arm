@@ -31,7 +31,7 @@ __Table of Contents:__
 
 ## Introduction
 This project was made possible thanks to the Reinforcement Learning laboratory that is part of the Master's course in "Artificial Intelligence Engineering" at the University of Modena and Reggio Emilia. 
-The laboratory was made possible thanks to Professor Simone Calderara, who managed and coordinated its development. The credit for our improvement in the field of reinforcement learning should be attributed to him; any errors and inaccuracies in this repository are our own mistakes.
+The laboratory was made possible thanks to Professor Simone Calderara, who managed and coordinated its development.
 
 ## Reinforcement Learning Laboratory
 During the laboratory, it was possible to delve into the fundamentals of Reinforcement Learning and their implementation. We used various algorithms, both value-based and policy-based. The simpler ones, such as Q-learning and Deep Q-learning, were implemented from scratch, while for the more complex theoretical ones, like A2C and PPO, we chose to use the implementations from "Stable Baseline 3." We also utilized environments like Gymnasium, Petting-zoo, and Pybullet. Furthermore, we developed some custom environments, one of which was used in this project. Below, you can see some of our implementations:
