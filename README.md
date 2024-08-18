@@ -6,7 +6,7 @@
 
 __Table of Contents:__
 - [Introduction](#introduction)
-- [Reinforcement Learning Laboratory](#reinforcemente_learning_laboratory)
+- [Reinforcement Learning Laboratory](#reinforcement-learning-laboratory)
 - [Inspiration](#inspiration)
 - [Development Tools](#development-tools)
 - [Custom Env](#custom-env)
@@ -106,7 +106,7 @@ __Control range:__ [-2, 2] (N·m)
 
 ### Reward
 
-$Reward = -||obj\\_pos - target\\_pos|| - 0.1 * ||action||^2 $
+$Reward = - \lVert obj\\_pos - target\\_pos \rVert - 0.1 * \lVert action \rVert ^2 $
 
 The first term force the learning process to focus on throwing the object effectively. The second term force the learning process to develop an efficient motion of the robotic arm. The 0.1 weight scales down the second term in order to delay the learning process of the efficient motion only after being able to solve the main task.
 
@@ -148,8 +148,8 @@ where:
 + $G_t$ is the return i.e. the discounted sum of rewards in a single episode
 + $V_t$ is the value function i.e. the estimation of $G_t$ done at time $t$
 
-### Proximal Policy Optimization (PPO)
-The Policy Gradient Methods is calculated online i.e. the policy is optimized on an observation history sampled by the policy itself. This leads to major instabilities in the learning process which sometimes brings the policy to diverge by focusing on a constantly shifting distribution. When it happens, the agent is not working towards the main goal anymore and thus stops to learn. To solve this issue OpenAI engineered the PPO.
+### Proximal Policy Optimization
+The Policy Gradient Methods is calculated online i.e. the policy is optimized on an observation history sampled by the policy itself. This leads to major instabilities in the learning process which sometimes brings the policy to diverge by focusing on a constantly shifting distribution. When it happens, the agent is not working towards the main goal anymore and thus stops to learn. To solve this issue OpenAI engineered the Proximal Policy Optimization (PPO).
 Basically, the new policy gradient method force the agent to learn a "proximal" policy which is a policy not too different from the one in the previous episode. The plots below, shows how they are clipping the loss in order to avoid extreme changes on the main strategy.
 
 <p align="center" width="100%">
@@ -204,13 +204,13 @@ We realized that introducing a vision control feedback, this solution could be a
 
 + __End-to-End Traning:__ The observations are entextracted by a Neural Network instead of retreiving them from the simulator API.
 
-### Automatic Curriculum Learning (ACL)
+### Automatic Curriculum Learning
 
 <p align="center" width="100%">
 <img src="images/acl.png">
 </p>
 
-The ACL is a process that identify automatically the correct sequential task used to train the agent, instead of defining them by hand.
+The Automatic Curriculum Learning (ACL) is a process that identify automatically the correct sequential task used to train the agent, instead of defining them by hand.
 
 ### Parallel Multitask RL
 
